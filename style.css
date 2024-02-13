@@ -5,6 +5,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    padding-left: 15px;
 }
 
 .contenedor {
@@ -12,6 +13,7 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
 }
 
 
@@ -26,4 +28,35 @@ button {
 
 button:hover {
     background-color: #0056b3;
+}
+
+
+.tusAtajos .grid-container1{
+    font-size:x-small;
+}
+
+.tusAtajos .grid-container2{
+    font-size:x-small;
+}
+.grid-container1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px; 
+    width: 250px; 
+    padding: 10px;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 10px; 
+    width: 250px; 
+    padding: 10px;
+}
+
+.grid-item{
+    width:10px;
+    height: 10px;
+    padding-bottom: 8px;
+    margin-bottom: 8px; 
 }
