@@ -44,16 +44,15 @@ body {
 
 .grid-item{
     display: flex;
-    width:55px;
-    height: 55px;
+    width: 60px;
+    height: 60px;
     margin-top: 10px;
     border-width: 2px;
-    border-style: solid;
-    border-color: darkgray;
     border-radius: 30%;
     text-align: center;
     justify-content: center;
     padding-top: 15px;
+    box-shadow: 0 0 10px rgba( 3, 3, 0.1);
 }
 
 .grid-item:hover{
