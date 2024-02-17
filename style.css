@@ -1,37 +1,7 @@
-/* Estilos para el modo claro */
-@media (prefers-color-scheme: light) {
-    body {
-        background-color: #f0f0f0;
-      color:black;
-    }
-    .contenedor {
-        background-color: #fff;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    
-.grid-item:hover{
-    background-color: darkgrey;
-    color:black !important;
-}
-  }
-
-  @media (prefers-color-scheme: dark) {
-    body {
-        background-color: #f0f0f0;
-      color:black;
-    }
-    .contenedor {
-        background-color: #fff;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    
-.grid-item:hover{
-    background-color: darkgrey;
-    color:black !important;
-}
-}
 
 body {
+    background-color: #f0f0f0 !important;
+    color:black !important;
     font-family: Arial, sans-serif;
     margin: 0;
     justify-content: center;
@@ -44,10 +14,10 @@ body {
 .contenedor {
     align-items: center;
     justify-content: center;
-    background-color: #fff;
+    background-color: #fff !important;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
     width: 300px;
 }
 
