@@ -1,6 +1,38 @@
+/* Estilos para el modo claro */
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: #f0f0f0;
+      color:black;
+    }
+    .contenedor {
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+.grid-item:hover{
+    background-color: darkgrey;
+    color:black !important;
+}
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+        background-color: #f0f0f0;
+      color:black;
+    }
+    .contenedor {
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+.grid-item:hover{
+    background-color: darkgrey;
+    color:black !important;
+}
+}
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
     margin: 0;
     justify-content: center;
     align-items: center;
