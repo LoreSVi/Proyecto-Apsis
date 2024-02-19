@@ -7,11 +7,15 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    display:inline-block;
 }
-
+ .navbar{
+    padding: 20px;
+    margin-bottom: 15px;
+ }
 main{
     padding-left: 20px;
+    display:inline-block;
+    height: 80%;
 }
 
 .contenedor {
@@ -24,6 +28,10 @@ main{
     width: 300px;
 }
 
+.tusAtajos{
+    margin-top: 15px;
+    padding: 10px;
+}
 .tusAtajos .grid-container1{
     font-size:x-small;
 }
@@ -114,8 +122,12 @@ body{
 }
 
 /*footer*/
-footer{
-    background-color: darkred !important;
+footer{ 
+    display: flex;
+    background-color: darkred !important; 
+    margin-top: 20px;
+    height: 20%;
+    width: 100%;
 }
  footer .grid-item{
     background-color: #f0f0f0 !important;
