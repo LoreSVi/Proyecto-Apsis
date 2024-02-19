@@ -115,7 +115,7 @@ body{
 
 /*footer*/
 footer{
-    background-color: darkred;
+    background-color: darkred !important;
 }
  footer .grid-item{
     background-color: #f0f0f0 !important;
@@ -124,3 +124,8 @@ footer{
     color:gray !important;
     text-decoration: none !important;
  }
+ footer a:hover {
+    text-decoration: none !important; 
+}
+
+ 
