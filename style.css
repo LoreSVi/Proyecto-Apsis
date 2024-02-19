@@ -1,6 +1,7 @@
 
 body {
-    background-color: #f0f0f0 !important;
+    background: rgb(107,12,103);
+    background: linear-gradient(180deg, rgba(107,12,103,1) 20%, rgba(129,90,127,1) 39%, rgba(166,125,164,1) 56%, rgba(201,136,199,1) 70%, rgba(237,194,235,1) 86%);
     color:black !important;
     font-family: Arial, sans-serif;
     margin: 0;
@@ -76,7 +77,7 @@ main{
      text-decoration: none;
 }
 .tusAtajos a{
-    color:gray !important;
+    color:rgb(235, 234, 234) !important;
     text-decoration: none;
 }
 
@@ -125,6 +126,8 @@ footer{
 }
  footer .grid-item{
     background-color: #f0f0f0 !important;
+    width:70px;
+    height: 70px;
  }
  footer  a {
     color:gray !important;
