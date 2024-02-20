@@ -2,7 +2,7 @@
 body {
     background: rgb(107,12,103);
     background: linear-gradient(180deg, rgba(107,12,103,1) 20%, rgba(129,90,127,1) 39%, rgba(166,125,164,1) 56%, rgba(201,136,199,1) 70%, rgba(237,194,235,1) 86%);
-    color:black !important;
+    color:rgb(250, 243, 243) !important;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -22,7 +22,8 @@ main{
 .contenedor {
     align-items: center;
     justify-content: center;
-    background-color: #fff !important;
+    background-color:rgba(237,194,235,1) !important; 
+    color:black;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
@@ -31,7 +32,8 @@ main{
 
 .tusAtajos{
     padding: 10px;
-}
+} 
+
 .tusAtajos .grid-container1{
     font-size:x-small;
 }
@@ -70,9 +72,8 @@ main{
     box-shadow: 0 0 10px rgba( 3, 3, 0.1);
 }
 
-.grid-item:hover{
-    background-color: darkgrey;
-    color:black !important;
+.tusAtajos .grid-item:hover{
+    background-color: darkred !important; 
     cursor:pointer;
      text-decoration: none;
 }
@@ -105,12 +106,13 @@ main{
     }
     
 .tusAtajos .grid-item{ 
-    color: black !important;
+    color: rgb(247, 236, 236) !important;
     width:80px;
     height: 80px;
     font-size: medium;
     gap:10px;
 }
+
     footer{
         align-items: center;
        display: flex;
@@ -129,12 +131,16 @@ footer{
     width:70px;
     height: 70px;
  }
+ footer .grid-item:hover{
+    background-color: rgba(201,136,199,1)  !important; 
+ }
  footer  a {
     color:gray !important;
     text-decoration: none !important;
  }
  footer a:hover {
     text-decoration: none !important; 
+    color: black !important;
 }
 
  
