@@ -168,3 +168,11 @@ footer {
         margin-left: 20px;
     }
  }
+
+
+ .agregarPlata{
+    display:flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+ }
