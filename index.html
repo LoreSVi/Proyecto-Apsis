@@ -35,22 +35,20 @@
       <main class="home">
         
       <div class="contenedor">
-        <div class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Tu Dinero
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item pesos" id="pesos" href="#">pesos ARS</a></li>
-              <li><a class="dropdown-item dolar" id="dolar" href="#">Dolar</a></li>
-              <li><a class="dropdown-item euros"  id="euros"href="#">EUROS</a></li>
-              <li><a class="dropdown-item libras" id="libras" href="#">LIBRAS</a></li>
-            </ul>
-        </div>
-        <p id="miDinero">$ 9000</p>
-        <p>USD 10,78</p>
-        <p>€ 10,05  </p>
-        <p>£ 8,55 </p> 
-    </div>
+        <label for="cantidad">Importe:</label>
+        <input type="number" id="cantidad" placeholder="Ingrese el importe">
+    
+        <label for="moneda">Moneda:</label>
+        <select id="moneda">
+            <option value="usd">Dólares estadounidenses (USD)</option>
+            <option value="eur">Euros (EUR)</option>
+            <option value="lib">Libras esterlinas (GBP)</option>
+        </select>
+    
+        <button onclick="calcularPrecio()">Calcular Precio</button>
+    
+        <p id="result"></p>
+      </div>
 
     <br>
     <div class="contenedor2">
@@ -67,14 +65,16 @@
             <a href="pages/qr.html" class="grid-item">QR</a>
             <a href="pages/tarjetas.html" class="grid-item">Tarjetas</a>
         </div>
+
     </div>
-  </div>
+  </div> 
+
   </main>
 
   <!-- footer -->
   <footer>
-    <div class="container-fluid footer  py-2 wow fadeIn" data-wow-delay="0.1s">
-      <div class="grid-container1">
+    <div class="container-fluid  footer mt-2 py-2 wow fadeIn" data-wow-delay="0.1s">
+      <div class="grid-container py-5">
             <a href="pages/pagarcQr.html" class="grid-item">🏠Home</a>
 
     <a href="pages/qr.html" class="grid-item">➕</a>
