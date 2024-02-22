@@ -1,3 +1,11 @@
+@media (prefers-color-scheme: dark) {
+    body {
+    forced-color-adjust: none;
+    background-color: #ffffff; /* Fondo blanco */
+    color: #000000; /* Texto negro */
+    }
+    }
+
 
 body {
     background: rgb(107,12,103);
