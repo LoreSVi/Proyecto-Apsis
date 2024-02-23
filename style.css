@@ -186,3 +186,31 @@ footer {
  .navbar a {
     margin-right:20px;
  }
+
+ .nuevaCuenta{
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba( 3, 3, 0.1);
+ }
+
+ .grid-container3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas de igual ancho */
+    gap: 20px; /* Espacio entre las columnas */
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 20px auto; /* Centrar en la página */
+}
+
+ /* Estilos de las columnas */
+ .grid-itemA {
+    padding: 20px;
+    background-color: #f4f4f4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.grid-itemB{
+   padding-top: 50px;
+}
+
+.grid-itemB a{
+    text-decoration: underline;
+}
