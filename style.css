@@ -63,11 +63,11 @@ button {
 
 /*tus Atajos*/
 .contenedor2{
-padding: 15px;
+padding: 8px;
 margin-top: 15px;
 align-items: center;
 justify-content: center;
-width: 350px;
+width: 380px;
 box-shadow: 0 0 10px rgba( 3, 3, 0.1);
 }
 
@@ -92,6 +92,10 @@ box-shadow: 0 0 10px rgba( 3, 3, 0.1);
    
 }
 
+.tusAtajos{
+    width:400px;
+}
+
 .grid-item{ 
     display: flex;
     width: 70px;
@@ -99,6 +103,19 @@ box-shadow: 0 0 10px rgba( 3, 3, 0.1);
     margin-top: 10px;
     border-width: 2px;
     border-radius: 30%;
+    text-align: center;
+    justify-content: center;
+    padding-top: 15px;
+    box-shadow: 0 0 10px rgba( 3, 3, 0.1);
+}
+
+.tusAtajos .grid-item{ 
+    display: flex;
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    border-width: 2px;
+    border-radius: 80%;
     text-align: center;
     justify-content: center;
     padding-top: 15px;
@@ -183,6 +200,10 @@ footer {
     margin: 0;
  }
 
+ .cuerpoPaginas{
+    padding-left: 20px;
+ }
+
  .navbar a {
     margin-right:20px;
  }
@@ -218,3 +239,4 @@ footer {
 h4{
     text-decoration: underline;
 }
+
