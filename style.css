@@ -44,20 +44,30 @@ label {
     margin-bottom: 10px;
 }
 
+input::placeholder {
+    color: rgb(64, 25, 155); 
+}
+
 select {
     padding: 5px;
     font-size: 16px;
+    border-radius: 8px;
+    background-color: rgba(201,136,199,1);
 }
 
 input {
     padding: 5px;
     font-size: 16px;
+    border-radius: 8px;
+    background-color: rgba(201,136,199,1);
 }
 
 button {
     padding: 8px;
     font-size: 16px;
     cursor: pointer;
+    border-radius: 8px !important;
+    background-color: rgba(201,136,199,1);
 }
 
 
@@ -68,12 +78,12 @@ margin-top: 15px;
 align-items: center;
 justify-content: center;
 width: 380px;
-box-shadow: 0 0 10px rgba( 3, 3, 0.1);
+
 }
 
 
 .grid-container1 {
-    font-size: medium;
+    font-size: small;
     padding-left: 10px;
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
@@ -83,7 +93,7 @@ box-shadow: 0 0 10px rgba( 3, 3, 0.1);
 }
 
 .grid-container2 {
-    font-size: medium;
+    font-size: small;
     padding-left: 10px;
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
@@ -111,15 +121,15 @@ box-shadow: 0 0 10px rgba( 3, 3, 0.1);
 
 .tusAtajos .grid-item{ 
     display: flex;
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     margin-top: 10px;
     border-width: 2px;
     border-radius: 80%;
     text-align: center;
     justify-content: center;
     padding-top: 15px;
-    box-shadow: 0 0 10px rgba( 3, 3, 0.1);
+box-shadow: 5px 5px 10px black, inset 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .tusAtajos .grid-item:hover{
@@ -151,7 +161,7 @@ footer {
     gap: 5px; 
 }
  footer .grid-item{
-    background-color: #f0f0f0 !important;
+    background-color: rgba(201,136,199,1);
     width:80px;
     height: 65px;
     font-size: small;
