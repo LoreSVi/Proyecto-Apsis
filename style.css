@@ -6,8 +6,7 @@
 
 
 body {
-    background: rgb(107,12,103);
-    background: linear-gradient(180deg, rgba(107,12,103,1) 20%, rgba(129,90,127,1) 39%, rgba(166,125,164,1) 56%, rgba(201,136,199,1) 70%, rgba(237,194,235,1) 86%);
+  background-image: url("/IMG/fondo/fondoBordo.png");
     color:rgb(250, 243, 243) !important;
     font-family: Arial, sans-serif;
     margin: 0;
@@ -45,21 +44,21 @@ label {
 }
 
 input::placeholder {
-    color: rgb(64, 25, 155); 
+    color: rgb(36, 35, 35); 
 }
 
 select {
     padding: 5px;
     font-size: 16px;
     border-radius: 8px;
-    background-color: rgba(201,136,199,1);
+    background-color:silver;
 }
 
 input {
     padding: 5px;
     font-size: 16px;
     border-radius: 8px;
-    background-color: rgba(201,136,199,1);
+    background-color: silver;
 }
 
 button {
@@ -67,7 +66,7 @@ button {
     font-size: 16px;
     cursor: pointer;
     border-radius: 8px !important;
-    background-color: rgba(201,136,199,1);
+    background-color: silver;
 }
 
 
@@ -150,7 +149,7 @@ footer {
     display: flex;
     justify-content:space-between;
     align-items: center;
-    background-color:darkred;
+    background-color:silver;
     height: auto;
 }
   
@@ -161,12 +160,12 @@ footer {
     gap: 5px; 
 }
  footer .grid-item{
-    background-color: rgba(201,136,199,1);
+    background-image: url("/IMG/fondo/fondoBordo.png");
     width:80px;
     height: 65px;
     font-size: small;
     font-weight: 600;
-    color: rgb(79, 13, 107) !important;
+    color:white !important;
  }
 
  footer .grid-item:hover{
