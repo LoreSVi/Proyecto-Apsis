@@ -118,7 +118,7 @@ width: 380px;
     justify-content: center;
     padding-top: 15px;
     box-shadow: 0 0 10px rgba( 3, 3, 0.1);
-
+    background-image: url("IMG/fondo/fondoBotones.png");
 }
 
 .tusAtajos .grid-item{ 
@@ -136,7 +136,6 @@ background-image: url("IMG/fondo/fondoBotones.png");
 }
 
 .tusAtajos .grid-item:hover{
-    background-color: darkred !important; 
     cursor:pointer;
      text-decoration: none;
 }
