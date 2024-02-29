@@ -6,7 +6,7 @@
 
 
 body {
-  background-image: url("IMG/fondo/fondoRojolinea.png");
+  background-image: url("IMG/fondo/backgroundRojo.png");
   background-repeat: no-repeat;
     color:rgb(250, 243, 243) !important;
     font-family: Arial, sans-serif;
@@ -228,20 +228,25 @@ footer {
 
  .grid-container3 {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Dos columnas de igual ancho */
-    gap: 20px; /* Espacio entre las columnas */
-    max-width: 800px; /* Ancho máximo del contenedor */
-    margin: 20px auto; /* Centrar en la página */
+    grid-template-columns: 0.5fr 1.5fr; 
+    gap: 2px; 
+    width: 380px; 
+    margin: 2px auto; 
 }
 
  /* Estilos de las columnas */
  .grid-itemA {
-    padding: 20px;
     background-color: #f4f4f4;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 150px;
+}
+.grid-itemA img{
+    width:150px;
 }
 .grid-itemB{
    padding-top: 50px;
+   width:200px;
+   padding-left: 20px;
 }
 
 .grid-itemB a{
