@@ -206,7 +206,10 @@ footer a:hover {
 .navbar a {
   margin-right: 20px;
 }
-
+/*cuentas*/
+.desplegable {
+  margin-bottom: 30px;
+}
 .nuevaCuenta {
   align-items: center;
   justify-content: center;
@@ -217,7 +220,7 @@ footer a:hover {
   display: grid;
   grid-template-columns: 0.5fr 1.5fr;
   gap: 2px;
-  width: 380px;
+  width: 360px;
   margin: 2px auto;
 }
 
@@ -233,7 +236,7 @@ footer a:hover {
 .grid-itemB {
   padding-top: 50px;
   width: 200px;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 .grid-itemB a {
@@ -306,11 +309,47 @@ h4 {
 }
 
 /*estilos card */
-.card{
-  display:flex;
-  color:black;
+.card {
+  display: flex;
+  color: black;
 }
-.card img{
-  width:150px;
+.card img {
+  width: 150px;
   align-self: center;
+}
+
+/*section mas*/
+
+.masItems {
+  list-style: none;
+  padding: 0;
+}
+li .lita-itemMas {
+  width: 100%;
+}
+.lista-itemMas {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.masItems .icono {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.masItems .texto {
+  flex: 1;
+}
+
+.masItems .imagen {
+  max-width: 100%;
+  height: auto;
+  align-self: flex-end;
+}
+
+.cuerpoPaginas2 {
+  width: 100%;
 }
