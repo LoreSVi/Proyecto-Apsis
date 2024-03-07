@@ -305,3 +305,12 @@ h4 {
   }
 }
 
+/*estilos card */
+.card{
+  display:flex;
+  color:black;
+}
+.card img{
+  width:150px;
+  align-self: center;
+}
