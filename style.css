@@ -414,3 +414,6 @@ li {
   background-color: rgb(221, 168, 168);
   margin-bottom: 10px;
 }
+.dropdown-item{
+  color: black !important;;
+}
