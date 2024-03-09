@@ -320,18 +320,23 @@ h4 {
 
 /*section mas*/
 
+.contenedorPaginas2 {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+}
+ 
 .masItems {
   list-style: none;
-  padding: 0;
+  padding: 8px;
+  display: inline;
 }
-li .lita-itemMas {
-  width: 100%;
-}
-.lista-itemMas {
+
+.lista-itemMass {
   display: flex;
-  justify-content: space-around;
+  align-items: center;
   margin-bottom: 20px;
-  padding: 10px;
 }
 
 .masItems .icono {
@@ -350,9 +355,6 @@ li .lita-itemMas {
   align-self: flex-end;
 }
 
-.cuerpoPaginas2 {
-  width: 100%;
-}
 
 /*movimientos*/
 .cuerpoPaginasM{
@@ -380,7 +382,7 @@ li {
   color: inherit;
   padding: 5px 1px;
   position: relative;
-  color:white !important;
+  color:white;
 }
  #underline {
   position: absolute;
