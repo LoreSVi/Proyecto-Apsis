@@ -5,9 +5,8 @@
 }
 
 body {
-  background-image: url("IMG/fondo/backgroundRojo.png");
   background-repeat: no-repeat;
-  color: rgb(250, 243, 243) !important;
+  color: black;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -31,11 +30,10 @@ main {
   margin-bottom: 40px;
 }
 .contenedor {
-  background-image: url("IMG/fondo/fondoBotones.png");
   align-items: center;
   justify-content: center;
   box-shadow: 0 0 10px rgba(3, 3, 0.1);
-  color: rgb(241, 234, 234);
+  color: black;
   padding: 15px;
   border-radius: 8px;
   width: 350px;
@@ -57,6 +55,7 @@ select {
   border-radius: 8px;
   background-color: silver;
 }
+
 
 input {
   padding: 5px;
@@ -115,7 +114,7 @@ button {
   justify-content: center;
   padding-top: 15px;
   box-shadow: 0 0 10px rgba(3, 3, 0.1);
-  background-image: url("IMG/fondo/fondoBotones.png");
+  color:#808080;
 }
 
 .tusAtajos .grid-item {
@@ -129,15 +128,16 @@ button {
   justify-content: center;
   padding-top: 15px;
   box-shadow: 5px 5px 10px black, inset 0 0 5px rgba(0, 0, 0, 0.5);
-  background-image: url("IMG/fondo/fondoBotones.png");
 }
 
 .tusAtajos .grid-item:hover {
   cursor: pointer;
   text-decoration: none;
+  color: black;
 }
 .tusAtajos a {
-  color: rgb(235, 234, 234) !important;
+  color: rgb(75, 74, 74);
+  font-weight: 700;
   text-decoration: none;
 }
 
@@ -158,16 +158,16 @@ footer {
   gap: 5px;
 }
 footer .grid-item {
-  background-image: url("IMG/fondo/fondoRojolinea.png");
-  width: 80px;
+  width: 90px;
   height: 65px;
   font-size: small;
-  font-weight: 600;
-  color: white !important;
+  font-weight: 800;
+  color: rgb(75, 74, 74) !important;
+  background-color: rgb(209, 208, 209) !important;
 }
 
 footer .grid-item:hover {
-  background-color: rgb(214, 83, 240) !important;
+  background-color: rgb(157, 152, 158) !important;
 }
 footer a {
   text-decoration: none !important;
@@ -324,52 +324,33 @@ h4 {
 }
 
 /*section mas*/
-
-.contenedorPaginas2 {
-  display: flex;
-  height: 100vh;
-  width: 100%;
-  margin: 0;
-}
- 
-.masItems {
-  list-style: none;
-  padding: 8px;
-  display: inline;
+.grid-container4 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columnas de igual ancho */
+  grid-auto-rows: minmax(100px, auto); /* Altura mínima de 100px para las filas */
+  gap: 10px; /* Espacio entre los elementos */
 }
 
-.lista-itemMass {
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
+.grid-item3 {
+  padding: 20px;
+  text-align: center;
 }
 
-.masItems .icono {
-  width: 30px;
-  height: 30px;
-  margin-right: 10px;
+/* Alinea el último elemento de cada fila al margen derecho */
+.grid-item3:nth-child(3n) {
+  grid-column-end: -1;
 }
 
-.masItems .texto {
-  flex: 1;
-}
-
-.masItems .imagen {
-  max-width: 100%;
-  height: auto;
-  align-self: flex-end;
-}
 
 
 /*movimientos*/
-.cuerpoPaginasM{
+.cuerpoPaginasM {
   display: flex;
   justify-content: center;
   height: 100vh;
   margin: 10px;
   margin-right: 10px;
 }
-
 
 ul {
   list-style-type: none;
@@ -382,14 +363,14 @@ li {
   margin: 0;
 }
 
- a {
+a {
   text-decoration: none;
   color: inherit;
   padding: 5px 1px;
   position: relative;
-  color:white;
+  color: white;
 }
- #underline {
+#underline {
   position: absolute;
   height: 2px;
   background-color: silver;
@@ -400,27 +381,30 @@ li {
   background-color: #808080;
 }
 
- #navbar {
+#navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: white;
   position: relative;
 }
-
-.aLaDer{
-  text-align: right ;
+#navbar1 a{
+  color:#808080;
+  font-weight: 700;
+}
+.aLaDer {
+  text-align: right;
   padding-right: 10px;
 }
 
-.importC{
-  color:green;
+.importC {
+  color: green;
 }
 
-.movCards .card{
-  background-color: rgb(221, 168, 168);
+.movCards .card {
+  background-color: rgb(199, 194, 194);
   margin-bottom: 10px;
 }
-.dropdown-item{
-  color: black !important;;
+.dropdown-item {
+  color: black !important;
 }
